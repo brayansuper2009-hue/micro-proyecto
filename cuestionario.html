@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta de Personajes y Equipos</title>
+</head>
+<body>
+ <a href="Index.html"><h3> REGRESAR </h3> </a>
+  <h2>Encuesta de Personajes y Equipos</h2>
+
+  <form action="#" method="POST">
+    
+    <div>
+      <label for="personaje-favorito">¿Cuál es tu personaje favorito?</label><br>
+      <input type="text" id="personaje-favorito" name="personaje_favorito" placeholder="Escribe tu personaje favorito" required>
+    </div>
+    <br>
+
+    <div>
+      <label for="personaje-sacar">¿Qué personaje vas a sacar / conseguir próximamente?</label><br>
+      <input type="text" id="personaje-sacar" name="personaje_sacar" placeholder="Escribe el nombre del personaje">
+    </div>
+    <br>
+
+    <div>
+      <label>¿Cuál(es) de estos personajes te gusta más?</label><br>
+      <input type="checkbox" id="personaje1" name="gustos_personaje" value="personaje1">
+      <label for="personaje1">  DALIA  </label><br>
+      
+      <input type="checkbox" id="personaje2" name="gustos_personaje" value="personaje2">
+      <label for="personaje2"> BLADE MORTENAX  </label><br>
+      
+      <input type="checkbox" id="personaje3" name="gustos_personaje" value="personaje3">
+      <label for="personaje3"> SEELE </label><br>
+      
+      <input type="checkbox" id="personaje4" name="gustos_personaje" value="personaje4">
+      <label for="personaje4"> OTRO </label>
+    </div>
+    <br>
+
+    <div>
+      <label for="equipo-favorito">¿Cuál es tu equipo favorito?</label><br>
+      <input type="text" id="equipo-favorito" name="equipo_favorito" placeholder="Escribe tu equipo favorito">
+    </div>
+    <br>
+
+    <div>
+      <label for="rol-preferido">¿Cuál es tu rol o clase preferida?</label><br>
+      <select id="rol-preferido" name="rol_preferido">
+        <option value="" disabled selected>Selecciona una opción</option>
+        <option value="tanque">Tanque / Defensor</option>
+        <option value="dps">Atacante / DPS</option>
+        <option value="soporte">Soporte / Curador</option>
+        <option value="estratega">Estratega</option>
+      </select>
+    </div>
+    <br>
+
+   <div>
+      <label>¿Cuál es tu elemento o tipo favorito?</label><br>
+      <input type="radio" id="hielo" name="elemento" value="hielo">
+      <label for="hielo">Hielo</label><br>
+
+      <input type="radio" id="rayo" name="elemento" value="rayo">
+      <label for="rayo">Rayo</label><br>
+
+      <input type="radio" id="fuego" name="elemento" value="fuego">
+      <label for="fuego">Fuego</label><br>
+
+      <input type="radio" id="viento" name="elemento" value="viento">
+      <label for="viento">Viento</label>
+    </div>
+    <br>
+
+    <div>
+      <label for="frecuencia">¿Con qué frecuencia juegas o ves el contenido?</label><br>
+      <select id="frecuencia" name="frecuencia">
+        <option value="casual">Casual (Ocasional)</option>
+        <option value="regular">Regular (Seguido)</option>
+        <option value="diario">Diario</option>
+      </select>
+    </div>
+    <br>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+
+</body>
+</html>
